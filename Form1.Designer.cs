@@ -130,7 +130,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Pink;
-            ClientSize = new Size(843, 399);
+            ClientSize = new Size(750, 438);
             Controls.Add(lblLast);
             Controls.Add(btnReset);
             Controls.Add(lblLives);
@@ -139,7 +139,9 @@
             Controls.Add(lblTitle);
             Controls.Add(txtGuess);
             Controls.Add(lblNumber);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Number Guessing Game v1.0";

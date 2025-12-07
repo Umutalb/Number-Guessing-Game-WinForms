@@ -1,4 +1,6 @@
 <Solution>
-  <Project Path="../NumberGuessSetup_WinFrom/NumberGuessSetup_WinFrom.vdproj" Type="Installer" />
+  <Project Path="../NumberGuessSetup_WinFrom/NumberGuessSetup_WinFrom.vdproj" Type="Installer">
+    <Build />
+  </Project>
   <Project Path="NumberGuessGameWinForm.csproj" />
 </Solution>

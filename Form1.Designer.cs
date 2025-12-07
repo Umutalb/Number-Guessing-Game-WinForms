@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             lblNumber = new Label();
             txtGuess = new TextBox();
             lblTitle = new Label();
@@ -138,6 +139,7 @@
             Controls.Add(lblTitle);
             Controls.Add(txtGuess);
             Controls.Add(lblNumber);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Number Guessing Game v1.0";
